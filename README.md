@@ -6,10 +6,14 @@
 - **Professor**: Prof. Ting-Ting Hwang
 
 ## Project Overview
-This project implements a cache behavior simulator that analyzes and optimizes cache performance. The project focuses on:
+This project implements a cache behavior simulator focusing on cache performance optimization. 
 
-1. Implementation of cache policies (LRU replacement policy) - 70%
-2. Design of an optimized cache indexing scheme to minimize cache conflict misses - 30%
+It implements both baseline LSB indexing and an optimized indexing scheme based on the paper "Zero Cost Indexing for Improved Processor Cache Performance" by Tony Givargis. 
+
+The project consists of:
+
+1. Baseline implementation with LSB indexing and LRU policy (70%)
+2. Optimized indexing scheme to minimize cache conflict misses (30%)
 
 ## Project Components
 
